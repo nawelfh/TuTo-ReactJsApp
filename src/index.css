@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width:initial;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #052e9e;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #052e9e;
+}
+.navbar a:hover {
+  color:aqua;
+}
+.content {
+  max-width: initial;
+  margin: 40px auto;
+  padding: 20px;
+}
+.content .link-google{
+  color:crimson;
+}
+.mybutton{
+  display :initial;
+  background-color: rgb(40, 15, 131);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  cursor:pointer;
+}
+.info {
+  display:grid;
+  padding: 10px 16px;
+  margin: 40px auto;
+  border-bottom: 1px solid #f2f2f2;
+  background-color:#f2f2f2;
+  max-width: 980px;
+}
+
+.info a{
+  text-decoration: none;
+}
+
+.info:hover{
+  box-shadow: 1px 3px 5px #333;
+}
+
+.info h2{
+  font-size: 20px;
+  color: #052e9e;
+  margin-bottom: 8px;
+}
+.delete-button {
+  display: inline-block;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  margin-right: auto;
+	border-radius: 10px;
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;	
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+  margin-right: auto;
+}
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color:#052e9e;
+  margin-bottom: 30px;
+}
+
+.create input , .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin:10px 0;
+  border :1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+
+}
+
+.create button{
+  background: #052e9e;
+  color: #FFF;
+  border:0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.notfound{
+  text-align: center;
+}
+.notfound img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+.notfound a {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.counter {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #052e9e;
+  padding: 10px;
+  text-align: center;
+}
+.counter .count{
+  
+  padding: 10px;
+  text-align: center;
+}
+.counter button {
+  display: inline-block;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  margin-right: auto;
+	border-radius: 10px;
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;	
+	background-color: #12b9b1;
+	border-bottom: 5px solid #9b99ac;
+  margin-right: auto;
+}

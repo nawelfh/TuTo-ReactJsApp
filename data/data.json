@@ -1,0 +1,34 @@
+{
+  "infos": [
+    {
+      "id": 1,
+      "name": "Amine",
+      "lastName": "affes",
+      "work": "Manager"
+    },
+    {
+      "name": "azer",
+      "lastName": "khamessi",
+      "work": "Intern",
+      "id": 4
+    },
+    {
+      "name": "safouen",
+      "lastName": "raddaoui",
+      "work": "Intern",
+      "id": 5
+    },
+    {
+      "name": "mouhamed",
+      "lastName": "elleuch",
+      "work": "CTO",
+      "id": 6
+    },
+    {
+      "name": "bilel",
+      "lastName": "abdelwahed",
+      "work": "Manager",
+      "id": 7
+    }
+  ]
+}
